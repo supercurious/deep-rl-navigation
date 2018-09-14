@@ -1,7 +1,5 @@
 # Deep Reinforcement Learning for Navigation
 
----
-
 Train an agent to navigate the Banana Collectors environment from Unity ML-Agents using Deep Q-Networks (DQN) with dueling architecture and prioritized experience replay. 
 
 Watch a video of the agent here: [https://youtu.be/8ec-FtBbxic](https://youtu.be/8ec-FtBbxic)
@@ -10,13 +8,9 @@ Watch a video of the agent here: [https://youtu.be/8ec-FtBbxic](https://youtu.be
 
 ## The  Environment
 
----
-
 The Banana Collectors environment is a large flat square world enclosed by walls. Yellow and blue bananas are scattered throughout the environment. Four discrete actions are available to the agent: move forward, move backward, turn left, and turn right. The agent senses the environmental state through ray-based perception of the objects in the forward direction and through velocity. These combine for a state space with 37 dimensions. Navigating to a yellow banana provides a reward of +1, while a blue banana provides a negative reward of -1. Each episode allows the agent 300 steps before ending. The criteria for solving the task is averaging a score of 13 points across 100 episodes. 
 
 ## Installation
-
----
 
 1. Create and activate a  Python 3.6 environment. Choose an environment name in place of `your_name`.
 ```bash
@@ -44,8 +38,6 @@ pip install .
     * [Windows (64-bit)](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 ## Usage
-
----
 
 1. Open the Jupyter notebook `REPORT.ipynb` for implementation and results.
 ```bash
